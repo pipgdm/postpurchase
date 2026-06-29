@@ -1,0 +1,54 @@
+{
+  "source": "demos/crocs-demo.html",
+  "out": "pitch/builds/crocs-demo-pitch.html",
+  "title": "Crocs × Stampfree — interactive post-purchase demo",
+  "meta": "Crocs × Stampfree · post-purchase journey",
+  "coach": "This is an interactive demo 👉 choose options to continue",
+  "dimTargets": [],
+  "chapters": [
+    {
+      "tag": "Delivery nudge",
+      "h2": "“Your Crocs are on the way, Aisha!”",
+      "p": "The journey opens proactively on dispatch — the customer can redirect the parcel before it even arrives: a pick-up point, a neighbour, or a different day.",
+      "val": "<b>Why it matters:</b> every delivery becomes a conversation, not a dead-end tracking page."
+    },
+    {
+      "tag": "Pick-up flow",
+      "h2": "A map of nearby collection points",
+      "p": "Choosing a pick-up point shows local shops on a map. Pick one — Costcutter, Tesco or Wine&nbsp;&amp;&nbsp;Beer — and the chat confirms the address and opening hours before continuing.",
+      "val": "<b>Fewer failed deliveries:</b> the customer self-selects a convenient, attended location."
+    },
+    {
+      "tag": "Collection",
+      "h2": "A QR code to collect",
+      "p": "At the shop the customer shows their collection QR at the till and taps <em>Collected</em> — closing the delivery loop entirely inside the thread.",
+      "val": "<b>No separate app:</b> proof-of-collection lives right inside WhatsApp."
+    },
+    {
+      "tag": "Post-delivery",
+      "h2": "“How are your Crocs, Aisha?”",
+      "p": "After collection the brand checks in. One tap routes happy customers to a review and unhappy ones straight into a return — capturing sentiment at the perfect moment.",
+      "val": "<b>Reviews &amp; returns</b> handled in the same place feedback naturally happens."
+    },
+    {
+      "tag": "Upsell",
+      "h2": "A 30% flash-sale, in the moment",
+      "p": "Right after a positive interaction, a time-boxed offer appears. <em>Shop Sale</em> opens crocs.co.uk in a new tab <b>and</b> keeps the conversation going — no dead ends.",
+      "val": "<b>Repeat revenue:</b> the highest-intent moment is right after a good experience."
+    },
+    {
+      "tag": "AI personalisation",
+      "h2": "Upload a photo, get charmed Crocs",
+      "p": "The customer sends any image; the bot replies “working our magic ✨” and returns a customised, charm-covered pair, then links straight to Jibbitz charms.",
+      "val": "<b>The AI hook:</b> the upload-and-respond flow is built — plugging in a real model is the next step."
+    }
+  ],
+  "stateChapters": {
+    "start": 0, "upgrade": 0, "upgraded": 0, "changeday": 0, "dtue": 0, "dsat": 0, "track": 0, "neighbour": 0, "n23": 0, "n27": 0, "end": 0,
+    "pickup": 1, "costcutter": 1, "tesco": 1, "wineandbeer": 1,
+    "qrcode": 2,
+    "delivered": 3, "returnflow": 3, "review": 3,
+    "sale": 4, "optout": 4,
+    "customise": 5, "working": 5, "charming": 5
+  }
+}
